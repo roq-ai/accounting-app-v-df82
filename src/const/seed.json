@@ -1,0 +1,2372 @@
+[
+  {
+    "tax": [
+      {
+        "id": "6124cb7e-427a-4da9-a4cd-53cb340642dc",
+        "tax_type": "Sales Tax",
+        "tax_rate": 52379,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:50:14.512Z",
+        "updated_at": "2023-09-13T17:52:40.149Z"
+      },
+      {
+        "id": "5b505d40-ec38-4e3c-ad80-19ad4dbc6d92",
+        "tax_type": "Income Tax",
+        "tax_rate": 84051,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:44:09.116Z",
+        "updated_at": "2023-09-14T10:30:45.384Z"
+      },
+      {
+        "id": "18cc9fe8-b948-4e14-a36e-7305128cba3e",
+        "tax_type": "Property Tax",
+        "tax_rate": 77531,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:01:24.994Z",
+        "updated_at": "2023-09-14T11:20:43.450Z"
+      },
+      {
+        "id": "263a8a29-85f4-4ae2-b805-3f1c73348b85",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 35837,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T21:57:43.186Z",
+        "updated_at": "2023-09-14T09:13:39.791Z"
+      },
+      {
+        "id": "b5c0ab00-3c92-451e-8654-15fed327d375",
+        "tax_type": "Excise Tax",
+        "tax_rate": 14887,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:32:53.093Z",
+        "updated_at": "2023-09-14T07:34:19.887Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "07b86706-9f9e-4d2e-9684-0ce5bf6857da",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-14T05:54:44.284Z",
+        "due_date": "2023-09-13T16:57:37.442Z",
+        "total_amount": 78615,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:12:41.719Z",
+        "updated_at": "2023-09-14T09:27:08.057Z"
+      },
+      {
+        "id": "7208570a-c57f-4a47-91ea-375e66828e0d",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-14T01:36:50.921Z",
+        "due_date": "2023-09-13T14:56:55.961Z",
+        "total_amount": 18341,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T04:33:04.917Z",
+        "updated_at": "2023-09-14T06:31:00.595Z"
+      },
+      {
+        "id": "e8e21fb9-19d9-4c08-88b0-87bee03347dd",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-13T19:40:47.500Z",
+        "due_date": "2023-09-13T16:02:16.236Z",
+        "total_amount": 55073,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T02:26:31.200Z",
+        "updated_at": "2023-09-13T13:22:07.909Z"
+      },
+      {
+        "id": "fe0d98c7-3f22-4ea3-aee2-57f24d844ca2",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-13T18:27:57.107Z",
+        "due_date": "2023-09-14T06:43:30.292Z",
+        "total_amount": 31784,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T11:35:26.509Z",
+        "updated_at": "2023-09-14T02:23:37.611Z"
+      },
+      {
+        "id": "5a68c195-a303-4d62-ac63-73b996038999",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-14T02:19:58.790Z",
+        "due_date": "2023-09-13T17:32:31.061Z",
+        "total_amount": 63200,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:53:49.793Z",
+        "updated_at": "2023-09-13T17:44:58.581Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "40963af5-422d-4835-a64e-3d09ab6078c0",
+        "expense_date": "2023-09-14T09:31:10.515Z",
+        "amount": 22008,
+        "category": "Travel",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:18:46.262Z",
+        "updated_at": "2023-09-13T12:23:42.031Z"
+      },
+      {
+        "id": "bec58f6b-b9c8-458c-aafd-02f6adb00dc4",
+        "expense_date": "2023-09-14T11:12:56.417Z",
+        "amount": 32113,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:49:07.773Z",
+        "updated_at": "2023-09-14T08:33:31.014Z"
+      },
+      {
+        "id": "a7d08de4-f481-404a-aed8-bf2d70f4dcd1",
+        "expense_date": "2023-09-13T23:18:53.051Z",
+        "amount": 19273,
+        "category": "Advertising",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:00:09.899Z",
+        "updated_at": "2023-09-14T01:47:04.811Z"
+      },
+      {
+        "id": "4f0cfa4a-61e4-42b2-958f-b7514f4e592d",
+        "expense_date": "2023-09-14T03:26:54.892Z",
+        "amount": 30638,
+        "category": "Utilities",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T11:03:32.249Z",
+        "updated_at": "2023-09-14T11:08:41.682Z"
+      },
+      {
+        "id": "011f999e-a93e-480e-9d9d-77b1410478a6",
+        "expense_date": "2023-09-14T01:33:11.815Z",
+        "amount": 93381,
+        "category": "Professional Fees",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:26:54.289Z",
+        "updated_at": "2023-09-13T16:27:30.369Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "765fac4b-8858-4970-99d7-86880cde5cdf",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "balance": 99655,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T01:46:26.359Z",
+        "updated_at": "2023-09-14T00:10:44.358Z"
+      },
+      {
+        "id": "60099ada-e8fe-4f3e-9cb4-82d26f53f023",
+        "bank_name": "Wells Fargo",
+        "account_number": "0987654321",
+        "balance": 11835,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T11:07:35.629Z",
+        "updated_at": "2023-09-14T00:15:41.849Z"
+      },
+      {
+        "id": "b4efdced-96f5-40a3-b8e8-1db854c0aee2",
+        "bank_name": "Chase Bank",
+        "account_number": "5678901234",
+        "balance": 52196,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T19:51:19.116Z",
+        "updated_at": "2023-09-14T00:10:02.471Z"
+      },
+      {
+        "id": "f365aa02-1de5-498b-8eb2-82b9706181ed",
+        "bank_name": "Citibank",
+        "account_number": "4321098765",
+        "balance": 49143,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:16:43.382Z",
+        "updated_at": "2023-09-13T23:23:41.480Z"
+      },
+      {
+        "id": "af30662d-e1d1-4640-8682-b03b99687f0d",
+        "bank_name": "HSBC",
+        "account_number": "9876543210",
+        "balance": 43139,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:12:24.234Z",
+        "updated_at": "2023-09-14T01:45:22.600Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "87b14540-327e-457a-a9c2-f046a77ddcaa",
+        "email": "Aiden24@gmail.com",
+        "firstName": "Brooklyn",
+        "lastName": "Koelpin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36198387",
+        "tenantId": null
+      },
+      {
+        "reference": "c4d7787d-5565-4b0b-8b4b-c5ca01437dfb",
+        "email": "Linnea_Treutel@yahoo.com",
+        "firstName": "Sandy",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/157.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46d4c0e0-70f6-429f-b7ad-f1db8457954e",
+        "email": "Chelsey_Kerluke90@hotmail.com",
+        "firstName": "Nelda",
+        "lastName": "Wilkinson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/53924581",
+        "tenantId": null
+      },
+      {
+        "reference": "0eed236c-5209-4613-b98b-cfcbf83c3092",
+        "email": "Garnet80@hotmail.com",
+        "firstName": "Bridie",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/677.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f5bfd280-e133-4a9e-9b1c-c50da4ab0aa1",
+        "email": "Noe_White16@gmail.com",
+        "firstName": "Koby",
+        "lastName": "Bernier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66673905",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "2bab167c-51f7-4bfe-b09e-66d608b050d8",
+        "tax_type": "Sales Tax",
+        "tax_rate": 75838,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:52:38.042Z",
+        "updated_at": "2023-09-13T23:54:30.315Z"
+      },
+      {
+        "id": "0ae2e7ce-29ee-4fbc-a9af-5f6816a3ed78",
+        "tax_type": "Income Tax",
+        "tax_rate": 12999,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:17:44.060Z",
+        "updated_at": "2023-09-14T05:48:02.899Z"
+      },
+      {
+        "id": "593d9895-12b4-41fd-a9ba-3a3f883ab145",
+        "tax_type": "Property Tax",
+        "tax_rate": 85022,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:02:47.322Z",
+        "updated_at": "2023-09-14T04:53:09.143Z"
+      },
+      {
+        "id": "b1fbbf44-a74e-46b7-8cd5-a7289110ec1a",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 59489,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T04:04:31.879Z",
+        "updated_at": "2023-09-14T06:38:44.864Z"
+      },
+      {
+        "id": "feadde8b-ac0d-4930-ba68-f5f1d2bfb888",
+        "tax_type": "Excise Tax",
+        "tax_rate": 62429,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:04:07.458Z",
+        "updated_at": "2023-09-13T15:36:06.818Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "faeada56-c75e-4638-b047-2d4069378b16",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-14T05:12:27.135Z",
+        "due_date": "2023-09-13T23:06:08.242Z",
+        "total_amount": 34822,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:01:02.323Z",
+        "updated_at": "2023-09-13T22:56:41.729Z"
+      },
+      {
+        "id": "64a2eb9d-36c6-4503-be29-0b0f689a221b",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-14T04:52:43.840Z",
+        "due_date": "2023-09-13T15:46:19.124Z",
+        "total_amount": 57013,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:45:53.294Z",
+        "updated_at": "2023-09-13T23:28:35.571Z"
+      },
+      {
+        "id": "886d492e-c4ce-4c75-a800-fe41e150a73e",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-14T05:18:45.902Z",
+        "due_date": "2023-09-14T01:23:04.047Z",
+        "total_amount": 95530,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T19:29:44.377Z",
+        "updated_at": "2023-09-13T22:30:34.635Z"
+      },
+      {
+        "id": "614499ed-62ac-4343-85be-842450325780",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-14T11:31:30.497Z",
+        "due_date": "2023-09-14T04:58:32.213Z",
+        "total_amount": 68718,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:03:05.944Z",
+        "updated_at": "2023-09-13T16:11:56.258Z"
+      },
+      {
+        "id": "ebf8798a-bbd2-4216-b08b-547829b4dba2",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-14T09:46:14.131Z",
+        "due_date": "2023-09-14T07:39:01.189Z",
+        "total_amount": 56999,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:03:42.033Z",
+        "updated_at": "2023-09-14T06:21:59.502Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "b6fb9c42-0457-431a-9da7-7b2df25bd0c7",
+        "expense_date": "2023-09-14T01:26:07.919Z",
+        "amount": 15031,
+        "category": "Travel",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:43:59.397Z",
+        "updated_at": "2023-09-13T18:00:43.010Z"
+      },
+      {
+        "id": "76058f58-b064-4b47-b0ad-578bf8652d7b",
+        "expense_date": "2023-09-14T04:04:52.318Z",
+        "amount": 32867,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:18:26.555Z",
+        "updated_at": "2023-09-14T04:17:49.594Z"
+      },
+      {
+        "id": "faa53e4a-c95c-4066-a143-49867030ee1e",
+        "expense_date": "2023-09-14T06:50:46.057Z",
+        "amount": 95452,
+        "category": "Advertising",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:01:25.305Z",
+        "updated_at": "2023-09-14T09:58:06.615Z"
+      },
+      {
+        "id": "ac7f241b-0b24-4283-995e-fef596d91599",
+        "expense_date": "2023-09-14T03:15:03.638Z",
+        "amount": 16782,
+        "category": "Utilities",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T02:51:32.199Z",
+        "updated_at": "2023-09-13T19:25:14.170Z"
+      },
+      {
+        "id": "f8875fd1-65ed-43a4-aef2-fc70d0ff1b2c",
+        "expense_date": "2023-09-13T16:50:23.347Z",
+        "amount": 74159,
+        "category": "Repairs",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T10:21:27.958Z",
+        "updated_at": "2023-09-14T07:06:34.536Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "9dcb6259-2ec3-4c2d-baa6-52f7f0744e31",
+        "bank_name": "Chase Bank",
+        "account_number": "1234567890",
+        "balance": 90112,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:28:56.547Z",
+        "updated_at": "2023-09-14T05:00:23.977Z"
+      },
+      {
+        "id": "bb7f6288-ddc6-4155-a4ef-2717dd341fc2",
+        "bank_name": "Bank of America",
+        "account_number": "0987654321",
+        "balance": 34524,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:24:58.672Z",
+        "updated_at": "2023-09-13T17:05:28.717Z"
+      },
+      {
+        "id": "8433aaf4-b422-4c1c-b175-7772de7b293a",
+        "bank_name": "Wells Fargo",
+        "account_number": "2468135790",
+        "balance": 5180,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:32:58.374Z",
+        "updated_at": "2023-09-14T07:38:22.226Z"
+      },
+      {
+        "id": "0f7350a9-12f7-4e4a-a4a9-90ee67e9af0e",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "balance": 12271,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T02:15:34.535Z",
+        "updated_at": "2023-09-13T22:58:26.545Z"
+      },
+      {
+        "id": "9e8fa505-283d-46a1-a8f3-da3b0dca8d7a",
+        "bank_name": "US Bank",
+        "account_number": "9876543210",
+        "balance": 48505,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:17:06.496Z",
+        "updated_at": "2023-09-14T10:28:44.077Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2967c098-92e5-4391-a3f1-a55ad2338973",
+        "email": "Dallin82@gmail.com",
+        "firstName": "Jessika",
+        "lastName": "Russel-Nader",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/996.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92d01cbd-5f99-4d7b-bee2-de66a324d018",
+        "email": "Jolie_Tremblay41@yahoo.com",
+        "firstName": "Lacey",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/856.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a2ab2ee7-e238-445f-b95d-c95a694a5729",
+        "email": "Kathleen99@gmail.com",
+        "firstName": "Karina",
+        "lastName": "Brekke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8aecb844-4434-4e84-b12c-9ff780e1c403",
+        "email": "Rosella.Kohler15@hotmail.com",
+        "firstName": "Brett",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78389542",
+        "tenantId": null
+      },
+      {
+        "reference": "d90a0e13-175e-4815-8959-82675eafd2a1",
+        "email": "Edmond_Daniel20@yahoo.com",
+        "firstName": "Jarod",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/383.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "c85da21b-f5f1-4ea9-9261-04fe0822b93d",
+        "tax_type": "Sales Tax",
+        "tax_rate": 99005,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:39:04.005Z",
+        "updated_at": "2023-09-13T18:24:17.482Z"
+      },
+      {
+        "id": "6fb7aa50-7d87-4ce4-a78a-65bf5532e5f7",
+        "tax_type": "Income Tax",
+        "tax_rate": 4123,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:36:49.469Z",
+        "updated_at": "2023-09-14T06:45:44.788Z"
+      },
+      {
+        "id": "575ec124-eddd-4161-b5ee-1ac5015c9853",
+        "tax_type": "Property Tax",
+        "tax_rate": 50064,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:06:16.803Z",
+        "updated_at": "2023-09-14T02:41:35.318Z"
+      },
+      {
+        "id": "12c231df-47e4-4db8-8d2c-6de33abb2f55",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 14756,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:36:19.403Z",
+        "updated_at": "2023-09-14T02:30:07.062Z"
+      },
+      {
+        "id": "b0590d1e-16f4-4c11-ab1a-e198910b05e8",
+        "tax_type": "Excise Tax",
+        "tax_rate": 502,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:36:05.541Z",
+        "updated_at": "2023-09-13T22:37:33.590Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "4e951df6-e2c4-4c8f-90c2-d4bc30822ab5",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-13T15:18:47.079Z",
+        "due_date": "2023-09-13T22:31:53.266Z",
+        "total_amount": 36601,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:49:53.749Z",
+        "updated_at": "2023-09-13T22:35:35.856Z"
+      },
+      {
+        "id": "551e2320-3269-4abc-90a2-4edd8063f236",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-13T21:43:51.105Z",
+        "due_date": "2023-09-13T15:46:53.167Z",
+        "total_amount": 24835,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T01:54:42.843Z",
+        "updated_at": "2023-09-13T13:32:05.205Z"
+      },
+      {
+        "id": "6e2ff607-02c5-4064-8cc1-f668dafedce0",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-14T10:21:09.454Z",
+        "due_date": "2023-09-13T22:00:28.388Z",
+        "total_amount": 32270,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T11:27:05.874Z",
+        "updated_at": "2023-09-14T06:48:34.755Z"
+      },
+      {
+        "id": "23851cbf-c49d-41df-b01b-d680d3b0434f",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-14T02:47:19.186Z",
+        "due_date": "2023-09-13T16:06:09.757Z",
+        "total_amount": 22491,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:15:04.410Z",
+        "updated_at": "2023-09-13T19:38:46.468Z"
+      },
+      {
+        "id": "7a0e1ae5-5714-46b1-bcb2-e48f97f2f299",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-13T19:19:05.917Z",
+        "due_date": "2023-09-14T08:01:27.698Z",
+        "total_amount": 90409,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T07:30:05.991Z",
+        "updated_at": "2023-09-13T16:17:48.631Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "6887aa03-6a35-4520-b66f-c5c636c4b17a",
+        "expense_date": "2023-09-13T19:13:44.237Z",
+        "amount": 79629,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T17:56:57.655Z",
+        "updated_at": "2023-09-13T17:43:55.773Z"
+      },
+      {
+        "id": "1ba67226-84bb-4356-8752-e9d43fca262f",
+        "expense_date": "2023-09-14T01:04:14.228Z",
+        "amount": 34165,
+        "category": "Travel Expenses",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:28:46.082Z",
+        "updated_at": "2023-09-14T10:27:10.161Z"
+      },
+      {
+        "id": "11bad0d9-e907-4f14-b2a7-2633aef71a9f",
+        "expense_date": "2023-09-14T01:06:21.338Z",
+        "amount": 32334,
+        "category": "Advertising Costs",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T07:22:54.132Z",
+        "updated_at": "2023-09-13T19:20:52.545Z"
+      },
+      {
+        "id": "1aae61b7-eeb7-4ca9-a2e7-01c1deaf9181",
+        "expense_date": "2023-09-13T12:12:13.055Z",
+        "amount": 31176,
+        "category": "Utility Bills",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:37:09.143Z",
+        "updated_at": "2023-09-14T05:59:14.100Z"
+      },
+      {
+        "id": "76088062-c1c2-4dda-a99f-f90c48ebd86b",
+        "expense_date": "2023-09-13T16:30:02.082Z",
+        "amount": 11976,
+        "category": "Consulting Fees",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T11:25:40.436Z",
+        "updated_at": "2023-09-13T21:23:27.516Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "899be424-8d6f-4f27-9040-10db3b922f4b",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "balance": 21581,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:27:45.686Z",
+        "updated_at": "2023-09-14T00:21:33.320Z"
+      },
+      {
+        "id": "691284c6-d79d-42fb-924c-0c7559e6fc22",
+        "bank_name": "Wells Fargo",
+        "account_number": "0987654321",
+        "balance": 71526,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:04:51.046Z",
+        "updated_at": "2023-09-13T14:08:03.055Z"
+      },
+      {
+        "id": "fa0391e5-4431-4c7f-8a40-a2c02e17b354",
+        "bank_name": "Chase Bank",
+        "account_number": "2468135790",
+        "balance": 92128,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:44:32.306Z",
+        "updated_at": "2023-09-14T06:06:25.904Z"
+      },
+      {
+        "id": "5e0e0b3b-0d6d-4b62-b2db-440772081ebf",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "balance": 82976,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:35:29.512Z",
+        "updated_at": "2023-09-14T02:58:26.690Z"
+      },
+      {
+        "id": "3c1738a0-6e40-4c70-9909-59609dbaa30c",
+        "bank_name": "HSBC",
+        "account_number": "9876543210",
+        "balance": 70301,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:05:46.371Z",
+        "updated_at": "2023-09-13T16:48:17.587Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "98643ce2-65dc-48fa-9383-230d0f1b9769",
+        "email": "Kristina5@gmail.com",
+        "firstName": "Cory",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83939613",
+        "tenantId": null
+      },
+      {
+        "reference": "55c75db2-1e6e-42c0-8708-a9ded50ba486",
+        "email": "Monserrate45@gmail.com",
+        "firstName": "Erna",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/243.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9c92f5f4-8cc0-4392-998a-346398c60b1a",
+        "email": "Chesley44@gmail.com",
+        "firstName": "Monserrat",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44804206",
+        "tenantId": null
+      },
+      {
+        "reference": "bf67b4ed-b340-4531-90f0-dc2d0a414c8c",
+        "email": "Madyson.Donnelly@yahoo.com",
+        "firstName": "Crystel",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60046491",
+        "tenantId": null
+      },
+      {
+        "reference": "9bf21db6-3fc3-467e-949b-39ae7119a904",
+        "email": "Reynold78@gmail.com",
+        "firstName": "Marcos",
+        "lastName": "Torphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82150202",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "62919428-fb35-4d9c-9b60-02b94a0808f1",
+        "tax_type": "Sales Tax",
+        "tax_rate": 2296,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T07:01:48.466Z",
+        "updated_at": "2023-09-13T19:46:55.336Z"
+      },
+      {
+        "id": "8149eb8f-4228-458b-a0c8-e8132723d8fc",
+        "tax_type": "Income Tax",
+        "tax_rate": 6781,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:38:55.431Z",
+        "updated_at": "2023-09-13T22:00:31.813Z"
+      },
+      {
+        "id": "b2ddb373-73ba-475f-9c32-79bb6b03c3d5",
+        "tax_type": "Property Tax",
+        "tax_rate": 23280,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T01:42:58.496Z",
+        "updated_at": "2023-09-13T17:53:19.994Z"
+      },
+      {
+        "id": "f30ee009-3385-40a7-b1fc-6ad684d0a5fd",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 8710,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:53:42.259Z",
+        "updated_at": "2023-09-14T09:03:48.630Z"
+      },
+      {
+        "id": "42e60f43-955b-4577-b2d3-72186d32d29c",
+        "tax_type": "Excise Tax",
+        "tax_rate": 97959,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T11:41:32.741Z",
+        "updated_at": "2023-09-14T08:15:12.975Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "7d948c4d-2896-4c5f-a63c-74a53c53f888",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-13T23:54:49.874Z",
+        "due_date": "2023-09-14T06:44:43.096Z",
+        "total_amount": 79231,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:37:35.224Z",
+        "updated_at": "2023-09-14T02:01:17.889Z"
+      },
+      {
+        "id": "062d6896-075f-4ea7-986e-2199fc120c69",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-14T10:02:57.856Z",
+        "due_date": "2023-09-13T23:18:19.075Z",
+        "total_amount": 71022,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:27:15.558Z",
+        "updated_at": "2023-09-14T02:14:54.499Z"
+      },
+      {
+        "id": "9e48e783-9739-44c7-9e47-f5291b0760d2",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-13T20:57:30.165Z",
+        "due_date": "2023-09-13T17:19:39.066Z",
+        "total_amount": 53873,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:07:36.943Z",
+        "updated_at": "2023-09-14T10:11:42.567Z"
+      },
+      {
+        "id": "1ac933bc-7233-46e0-b8c0-0851faebdf49",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-14T04:01:32.151Z",
+        "due_date": "2023-09-13T15:21:03.494Z",
+        "total_amount": 70174,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T19:30:59.921Z",
+        "updated_at": "2023-09-13T23:43:23.177Z"
+      },
+      {
+        "id": "196c09f8-cf8b-4602-bef1-ce1135f365e7",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-14T01:28:16.153Z",
+        "due_date": "2023-09-14T02:48:19.957Z",
+        "total_amount": 52969,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T17:01:43.727Z",
+        "updated_at": "2023-09-14T11:14:07.227Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "2612f0c4-4b61-4826-bc35-5ff04f91830c",
+        "expense_date": "2023-09-13T22:49:20.546Z",
+        "amount": 31334,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:17:29.642Z",
+        "updated_at": "2023-09-14T02:00:44.868Z"
+      },
+      {
+        "id": "a936c6fb-8e07-4ac1-b064-c04ad32e367a",
+        "expense_date": "2023-09-14T06:06:40.410Z",
+        "amount": 78142,
+        "category": "Travel Expenses",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:25:22.744Z",
+        "updated_at": "2023-09-14T10:31:54.552Z"
+      },
+      {
+        "id": "72b3ed7e-f3a7-4387-b2e9-e48c735ab2f3",
+        "expense_date": "2023-09-14T07:19:55.228Z",
+        "amount": 41354,
+        "category": "Advertising Costs",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T21:57:34.347Z",
+        "updated_at": "2023-09-13T14:57:40.015Z"
+      },
+      {
+        "id": "115576c2-d855-4799-98d0-ba7d4be02657",
+        "expense_date": "2023-09-13T16:18:53.694Z",
+        "amount": 77158,
+        "category": "Utilities",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:48:12.965Z",
+        "updated_at": "2023-09-14T04:27:48.170Z"
+      },
+      {
+        "id": "23bb00f9-3ee4-46dc-99c7-04a1d1016c61",
+        "expense_date": "2023-09-13T15:27:27.228Z",
+        "amount": 68641,
+        "category": "Professional Fees",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T19:37:24.229Z",
+        "updated_at": "2023-09-14T06:06:10.368Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "ac51b344-7943-47c0-819d-87e28063d207",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "balance": 21354,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:46:41.467Z",
+        "updated_at": "2023-09-14T03:14:40.924Z"
+      },
+      {
+        "id": "3cc18b72-df4e-43e0-9364-3663c7d8c065",
+        "bank_name": "Wells Fargo",
+        "account_number": "0987654321",
+        "balance": 37967,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:26:35.746Z",
+        "updated_at": "2023-09-13T18:24:10.612Z"
+      },
+      {
+        "id": "3934ab6c-3ee1-4ac4-a9b2-a93cd7353f31",
+        "bank_name": "JPMorgan Chase",
+        "account_number": "5678901234",
+        "balance": 36851,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T21:43:32.013Z",
+        "updated_at": "2023-09-13T22:04:28.837Z"
+      },
+      {
+        "id": "bacc7a3f-864b-4673-9ec7-acee48e75fca",
+        "bank_name": "Citibank",
+        "account_number": "4321098765",
+        "balance": 67766,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:32:09.018Z",
+        "updated_at": "2023-09-13T18:04:02.955Z"
+      },
+      {
+        "id": "2a5d7ea4-6369-4210-b7bb-98946ac50e25",
+        "bank_name": "HSBC",
+        "account_number": "9876543210",
+        "balance": 51383,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:18:50.965Z",
+        "updated_at": "2023-09-14T03:24:19.133Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "be9c3ef4-671f-46bf-9667-d60cece12d08",
+        "email": "Percy_Corwin@gmail.com",
+        "firstName": "Lisa",
+        "lastName": "Kirlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/704.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "31a8dc5e-1acb-4854-a3d0-90fdbc56f8a2",
+        "email": "Alba.Dickens51@hotmail.com",
+        "firstName": "Esteban",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33797189",
+        "tenantId": null
+      },
+      {
+        "reference": "433bfdc9-8b75-41e4-986c-eb9b8714a60e",
+        "email": "Eli_OConnell47@gmail.com",
+        "firstName": "Domenic",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/716.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "15924722-3b0d-4868-9a63-abefd65d5923",
+        "email": "Jerrold.Abernathy12@yahoo.com",
+        "firstName": "Patricia",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1012.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be64d24d-f4b8-4dd0-850e-9b959ca3f820",
+        "email": "Mike_Goyette69@hotmail.com",
+        "firstName": "Luna",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70652956",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "a892ae83-0e2d-4b23-a41e-d7c827b7040c",
+        "tax_type": "Sales Tax",
+        "tax_rate": 63759,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:40:30.981Z",
+        "updated_at": "2023-09-13T16:49:36.617Z"
+      },
+      {
+        "id": "23c05129-1a5a-44ca-b452-07dd469c2ac6",
+        "tax_type": "Income Tax",
+        "tax_rate": 43712,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:07:14.907Z",
+        "updated_at": "2023-09-13T18:15:56.408Z"
+      },
+      {
+        "id": "a1cd6f5e-3ad5-4d12-9603-475c676bb2b0",
+        "tax_type": "Property Tax",
+        "tax_rate": 70932,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T04:38:02.128Z",
+        "updated_at": "2023-09-13T22:07:12.999Z"
+      },
+      {
+        "id": "bdbbfdb7-7b66-4ff1-bf7d-3242bf996db3",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 25447,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T19:39:59.216Z",
+        "updated_at": "2023-09-13T22:42:31.535Z"
+      },
+      {
+        "id": "605fc4c1-9c2b-414a-9fbf-22db05e7f3db",
+        "tax_type": "Excise Tax",
+        "tax_rate": 53758,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:36:29.066Z",
+        "updated_at": "2023-09-13T15:36:58.534Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "e5fb5826-ab62-4372-bb8e-c26871aacace",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-14T08:55:34.301Z",
+        "due_date": "2023-09-14T07:18:35.016Z",
+        "total_amount": 26474,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:48:04.102Z",
+        "updated_at": "2023-09-14T09:27:11.247Z"
+      },
+      {
+        "id": "39579407-e63c-4681-baff-b51866a0479b",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-13T13:47:03.948Z",
+        "due_date": "2023-09-14T09:36:56.208Z",
+        "total_amount": 57006,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:22:02.684Z",
+        "updated_at": "2023-09-14T03:04:36.904Z"
+      },
+      {
+        "id": "8eddb2f8-3242-4deb-beec-b0580f750b6f",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-13T17:37:34.777Z",
+        "due_date": "2023-09-13T15:23:55.031Z",
+        "total_amount": 16000,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T10:55:10.091Z",
+        "updated_at": "2023-09-14T02:15:45.471Z"
+      },
+      {
+        "id": "725bab73-aed6-49ee-99f2-c92e4ca48e52",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-13T12:27:26.977Z",
+        "due_date": "2023-09-14T00:50:12.589Z",
+        "total_amount": 4408,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:30:12.436Z",
+        "updated_at": "2023-09-13T19:36:45.143Z"
+      },
+      {
+        "id": "717940eb-d522-414e-ba73-cf96e137758c",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-14T05:08:18.421Z",
+        "due_date": "2023-09-13T15:32:39.000Z",
+        "total_amount": 33558,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:55:42.370Z",
+        "updated_at": "2023-09-13T17:41:16.697Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "9b44d9a9-70ba-402b-ac93-fd5fc30592d7",
+        "expense_date": "2023-09-14T00:38:41.277Z",
+        "amount": 48387,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T01:07:08.155Z",
+        "updated_at": "2023-09-13T19:13:14.871Z"
+      },
+      {
+        "id": "575d017a-d6e6-4cd7-8e39-9b1ecd076a40",
+        "expense_date": "2023-09-14T00:33:22.009Z",
+        "amount": 64358,
+        "category": "Travel Expenses",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:08:48.191Z",
+        "updated_at": "2023-09-13T12:31:12.989Z"
+      },
+      {
+        "id": "76ca339a-049c-48db-ae44-862ebaccdc18",
+        "expense_date": "2023-09-14T09:58:09.991Z",
+        "amount": 20518,
+        "category": "Advertising Costs",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:08:38.213Z",
+        "updated_at": "2023-09-13T14:13:16.060Z"
+      },
+      {
+        "id": "3a78c2a4-6dd2-43f2-94f4-3170375c2796",
+        "expense_date": "2023-09-13T22:45:05.523Z",
+        "amount": 64866,
+        "category": "Utilities",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:41:33.830Z",
+        "updated_at": "2023-09-14T07:46:09.448Z"
+      },
+      {
+        "id": "366aa055-3b6e-4cf8-a2e2-fd6370072e1f",
+        "expense_date": "2023-09-14T08:01:57.198Z",
+        "amount": 56455,
+        "category": "Professional Fees",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T21:12:19.963Z",
+        "updated_at": "2023-09-13T20:18:43.304Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "6f9a4eda-6892-4a6f-aa4e-6d13853eb2ec",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "balance": 32477,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:38:25.997Z",
+        "updated_at": "2023-09-14T07:50:30.716Z"
+      },
+      {
+        "id": "2f2f3964-84fe-43dc-a041-8e99870f8a20",
+        "bank_name": "Wells Fargo",
+        "account_number": "0987654321",
+        "balance": 56944,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T01:17:44.608Z",
+        "updated_at": "2023-09-13T23:01:08.133Z"
+      },
+      {
+        "id": "69ad1fce-f899-4e82-a7d4-2f77f0dda27b",
+        "bank_name": "Chase Bank",
+        "account_number": "2468135790",
+        "balance": 72653,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:15:19.792Z",
+        "updated_at": "2023-09-14T07:33:17.443Z"
+      },
+      {
+        "id": "60775036-6591-4250-8048-1b796c66e8bb",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "balance": 19000,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:14:42.711Z",
+        "updated_at": "2023-09-14T09:21:51.910Z"
+      },
+      {
+        "id": "280ea910-12d3-4b7c-9082-e2d9d86444c1",
+        "bank_name": "HSBC",
+        "account_number": "9876543210",
+        "balance": 73596,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:37:24.208Z",
+        "updated_at": "2023-09-14T00:15:57.143Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9550881b-cca5-4e53-8fb5-a7e5bcfa33d0",
+        "email": "Ashly21@yahoo.com",
+        "firstName": "Johathan",
+        "lastName": "Boyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67108927",
+        "tenantId": null
+      },
+      {
+        "reference": "98fa9eee-730b-4023-9d05-7d3c2c0b3f07",
+        "email": "Dashawn15@yahoo.com",
+        "firstName": "Clyde",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/808.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "417a4b49-f8ff-4480-8b8b-73a401f5ff06",
+        "email": "Charles19@gmail.com",
+        "firstName": "Tianna",
+        "lastName": "Rice",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1196.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3692346c-1fea-4fff-93a0-45fc9e847512",
+        "email": "Kaci26@gmail.com",
+        "firstName": "Odessa",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/57365586",
+        "tenantId": null
+      },
+      {
+        "reference": "d23f444e-8b26-463b-b30a-bece9ab35367",
+        "email": "Elva32@yahoo.com",
+        "firstName": "Jevon",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/78333051",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "13cc19f8-be31-4754-9ca4-b473a9366772",
+        "tax_type": "Sales Tax",
+        "tax_rate": 87417,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:42:11.232Z",
+        "updated_at": "2023-09-13T15:08:40.362Z"
+      },
+      {
+        "id": "fa53f64b-e351-46a5-8fca-9b6d62d31346",
+        "tax_type": "Income Tax",
+        "tax_rate": 93240,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:26:23.648Z",
+        "updated_at": "2023-09-13T20:23:50.047Z"
+      },
+      {
+        "id": "25c1520d-0ad6-4b05-a2c2-95bb42123f2d",
+        "tax_type": "Property Tax",
+        "tax_rate": 36271,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:06:16.212Z",
+        "updated_at": "2023-09-14T05:28:05.931Z"
+      },
+      {
+        "id": "055a1a11-6607-4f86-a7e1-1edc9f2e3ff4",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 70239,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:50:43.005Z",
+        "updated_at": "2023-09-14T08:24:24.287Z"
+      },
+      {
+        "id": "a898f91c-4519-45c2-b443-cb7cebd8bc03",
+        "tax_type": "Excise Tax",
+        "tax_rate": 93245,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:18:55.554Z",
+        "updated_at": "2023-09-13T18:20:32.824Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "471ca938-4972-40ee-a561-fe0a6b3ebde8",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-13T18:42:09.068Z",
+        "due_date": "2023-09-13T22:36:10.747Z",
+        "total_amount": 2101,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:25:55.023Z",
+        "updated_at": "2023-09-14T01:05:12.565Z"
+      },
+      {
+        "id": "9dbb7048-ced1-42c1-8606-b09a1b08f32d",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-14T06:34:02.198Z",
+        "due_date": "2023-09-13T18:20:05.300Z",
+        "total_amount": 85261,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:20:29.022Z",
+        "updated_at": "2023-09-13T19:33:23.699Z"
+      },
+      {
+        "id": "d119ff31-8591-4dd2-bf9a-108be5c3d909",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-14T00:06:43.513Z",
+        "due_date": "2023-09-14T06:28:03.352Z",
+        "total_amount": 19713,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:43:36.077Z",
+        "updated_at": "2023-09-14T08:43:48.847Z"
+      },
+      {
+        "id": "911f0548-c14f-429f-9701-769fc2fcf702",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-14T11:44:47.917Z",
+        "due_date": "2023-09-14T02:56:49.365Z",
+        "total_amount": 34944,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:04:21.767Z",
+        "updated_at": "2023-09-14T08:00:11.909Z"
+      },
+      {
+        "id": "dcaf9a1b-de4c-417d-bafb-0506a50a1b2d",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-13T23:58:07.360Z",
+        "due_date": "2023-09-14T03:18:11.177Z",
+        "total_amount": 38611,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:36:15.818Z",
+        "updated_at": "2023-09-14T06:25:54.375Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "e8422b52-2e33-4595-b143-9515d4c9c12c",
+        "expense_date": "2023-09-13T22:55:12.854Z",
+        "amount": 62419,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:52:24.550Z",
+        "updated_at": "2023-09-13T22:47:07.212Z"
+      },
+      {
+        "id": "9505fe88-9eb5-4b36-bc4d-1b7d445830de",
+        "expense_date": "2023-09-13T21:39:37.851Z",
+        "amount": 54308,
+        "category": "Travel Expenses",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:58:25.760Z",
+        "updated_at": "2023-09-14T11:51:12.798Z"
+      },
+      {
+        "id": "c1f2c4c7-b811-4403-bdd5-083a62db6106",
+        "expense_date": "2023-09-13T17:04:07.485Z",
+        "amount": 91992,
+        "category": "Advertising Costs",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:08:31.287Z",
+        "updated_at": "2023-09-13T22:36:40.327Z"
+      },
+      {
+        "id": "a7ced213-8fea-4c7d-b756-342626fea633",
+        "expense_date": "2023-09-13T18:48:08.935Z",
+        "amount": 21745,
+        "category": "Utilities",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:34:16.688Z",
+        "updated_at": "2023-09-13T20:47:51.152Z"
+      },
+      {
+        "id": "de4deb3c-002c-453a-881b-5ab54f8c176b",
+        "expense_date": "2023-09-13T16:13:24.404Z",
+        "amount": 80295,
+        "category": "Professional Fees",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:19:24.606Z",
+        "updated_at": "2023-09-13T21:21:48.625Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "60ddd227-10a5-44b8-92a0-27d1b88c3695",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "balance": 37952,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T11:09:07.031Z",
+        "updated_at": "2023-09-14T05:47:27.976Z"
+      },
+      {
+        "id": "bccb84dc-2359-404a-b19a-2aa5e17a2575",
+        "bank_name": "Chase Bank",
+        "account_number": "0987654321",
+        "balance": 46028,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T10:47:23.896Z",
+        "updated_at": "2023-09-13T12:57:14.742Z"
+      },
+      {
+        "id": "aa476c75-6da7-412d-bbbe-a0af82670353",
+        "bank_name": "Wells Fargo",
+        "account_number": "2468135790",
+        "balance": 75122,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:47:11.709Z",
+        "updated_at": "2023-09-13T18:27:58.282Z"
+      },
+      {
+        "id": "38b8e828-fdb5-47bc-aff5-c4751e104e7f",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "balance": 51491,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:28:44.670Z",
+        "updated_at": "2023-09-13T17:59:25.028Z"
+      },
+      {
+        "id": "793fd954-66ba-421a-8080-1e9b5ba9cc1c",
+        "bank_name": "HSBC",
+        "account_number": "9876543210",
+        "balance": 14241,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:03:24.770Z",
+        "updated_at": "2023-09-14T08:16:05.820Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "776cd387-71a2-49bb-a70f-ec88060de640",
+        "email": "Jovanny_Cartwright72@yahoo.com",
+        "firstName": "Webster",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10083141",
+        "tenantId": null
+      },
+      {
+        "reference": "7355f062-b610-43db-9d65-e213bcab10cf",
+        "email": "Marco89@yahoo.com",
+        "firstName": "Else",
+        "lastName": "Kutch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e571c7ff-1a93-4569-a8e8-8b76eb13428c",
+        "email": "Garnet_Bartoletti-Wunsch68@gmail.com",
+        "firstName": "Greta",
+        "lastName": "Ryan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50812926",
+        "tenantId": null
+      },
+      {
+        "reference": "405a46ba-886d-4b9a-b36b-7131a6e1a098",
+        "email": "Aidan34@hotmail.com",
+        "firstName": "Frederic",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26694001",
+        "tenantId": null
+      },
+      {
+        "reference": "205f1a24-87de-4fd0-8a44-f9f8a0e2c580",
+        "email": "Berniece.Adams@gmail.com",
+        "firstName": "Noemy",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/88255899",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "39b0f95b-d75b-4652-a28e-8177d81a19b3",
+        "tax_type": "Sales Tax",
+        "tax_rate": 75761,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T04:31:10.949Z",
+        "updated_at": "2023-09-14T09:59:58.980Z"
+      },
+      {
+        "id": "d10d2368-e02a-4e99-9df9-2a8adb521295",
+        "tax_type": "Income Tax",
+        "tax_rate": 89055,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T07:45:55.929Z",
+        "updated_at": "2023-09-13T23:14:07.227Z"
+      },
+      {
+        "id": "805619a6-ddff-4e51-8fe4-e65ae79758a3",
+        "tax_type": "Property Tax",
+        "tax_rate": 37696,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:43:29.782Z",
+        "updated_at": "2023-09-14T00:41:38.248Z"
+      },
+      {
+        "id": "273b2819-f513-4c20-8f27-0d396fb5f690",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 41384,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T02:00:10.484Z",
+        "updated_at": "2023-09-13T19:04:31.145Z"
+      },
+      {
+        "id": "2f3bb268-93a8-4e30-8e46-8c9507bee06c",
+        "tax_type": "Excise Tax",
+        "tax_rate": 48707,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:05:59.076Z",
+        "updated_at": "2023-09-13T19:24:09.320Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "a82ff4f0-20c3-4f76-ad9c-f69628649999",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-13T14:40:44.542Z",
+        "due_date": "2023-09-13T13:18:36.685Z",
+        "total_amount": 38041,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:17:51.660Z",
+        "updated_at": "2023-09-13T15:11:58.827Z"
+      },
+      {
+        "id": "1f26d247-507b-4f46-813b-a6a4250b6c1d",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-13T14:02:23.559Z",
+        "due_date": "2023-09-14T01:53:24.041Z",
+        "total_amount": 84870,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:10:17.229Z",
+        "updated_at": "2023-09-14T03:46:56.828Z"
+      },
+      {
+        "id": "2670d0a4-081b-48d9-be4a-922ccc6b9989",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-14T09:30:56.462Z",
+        "due_date": "2023-09-13T17:47:31.352Z",
+        "total_amount": 6481,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:58:23.634Z",
+        "updated_at": "2023-09-13T18:01:32.702Z"
+      },
+      {
+        "id": "bc6950c7-95b7-4d53-be0d-e55cd0203fb1",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-14T04:40:59.209Z",
+        "due_date": "2023-09-14T02:17:11.307Z",
+        "total_amount": 46061,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:24:33.360Z",
+        "updated_at": "2023-09-14T10:00:08.564Z"
+      },
+      {
+        "id": "99fddc68-0aed-459b-b752-89e61cee27a0",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-13T16:32:44.601Z",
+        "due_date": "2023-09-13T15:11:59.313Z",
+        "total_amount": 57219,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:16:23.594Z",
+        "updated_at": "2023-09-13T18:26:47.569Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "0e8f28e0-fae2-4a62-b269-58ff5371197d",
+        "expense_date": "2023-09-13T18:38:30.008Z",
+        "amount": 83444,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:27:12.302Z",
+        "updated_at": "2023-09-13T15:27:01.731Z"
+      },
+      {
+        "id": "7a655b75-a499-4ee2-a437-7b62276ba112",
+        "expense_date": "2023-09-13T12:17:53.917Z",
+        "amount": 75026,
+        "category": "Travel Expenses",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:42:33.036Z",
+        "updated_at": "2023-09-14T04:58:31.947Z"
+      },
+      {
+        "id": "b63d6d27-321d-419b-8d92-a179446c0b43",
+        "expense_date": "2023-09-13T23:40:00.020Z",
+        "amount": 99322,
+        "category": "Advertising Costs",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T21:42:18.599Z",
+        "updated_at": "2023-09-13T19:29:29.997Z"
+      },
+      {
+        "id": "0b027dd1-8cd9-4f5f-9c7a-8da88131e6a2",
+        "expense_date": "2023-09-14T00:13:42.793Z",
+        "amount": 10737,
+        "category": "Utility Bills",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T07:52:43.144Z",
+        "updated_at": "2023-09-14T02:04:02.043Z"
+      },
+      {
+        "id": "432cbc31-d846-4faa-bba1-845a4343adc6",
+        "expense_date": "2023-09-13T20:53:25.551Z",
+        "amount": 65961,
+        "category": "Professional Fees",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:33:58.111Z",
+        "updated_at": "2023-09-14T09:20:13.913Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "d971d4dc-2fde-40a4-a07d-324a6fee23e3",
+        "bank_name": "Bank A",
+        "account_number": "1234567890",
+        "balance": 25887,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:27:49.593Z",
+        "updated_at": "2023-09-13T13:47:44.123Z"
+      },
+      {
+        "id": "f25af9a1-eeae-44d0-97bb-6c5921292202",
+        "bank_name": "Bank B",
+        "account_number": "0987654321",
+        "balance": 97780,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:41:53.645Z",
+        "updated_at": "2023-09-14T10:42:28.894Z"
+      },
+      {
+        "id": "cb354596-6df5-4999-8926-cb1a3baf7e1c",
+        "bank_name": "Bank C",
+        "account_number": "2468135790",
+        "balance": 8041,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:05:09.914Z",
+        "updated_at": "2023-09-13T16:52:42.288Z"
+      },
+      {
+        "id": "41e6cf4f-3965-41f2-8866-960dfb076126",
+        "bank_name": "Bank D",
+        "account_number": "9876543210",
+        "balance": 93769,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:48:54.142Z",
+        "updated_at": "2023-09-14T05:31:45.385Z"
+      },
+      {
+        "id": "4f75bf19-19e3-4c6d-a617-b5ed4b1d577a",
+        "bank_name": "Bank E",
+        "account_number": "1357924680",
+        "balance": 64381,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T21:58:29.086Z",
+        "updated_at": "2023-09-14T04:15:09.283Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a8bc89a7-e1e9-4249-893c-b36cb1e9a3cb",
+        "email": "Asia16@gmail.com",
+        "firstName": "Ana",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1065.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a922ba8c-731c-48b4-bc04-a9805c5da30b",
+        "email": "Brandt.Zieme@gmail.com",
+        "firstName": "Alexandra",
+        "lastName": "Batz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/90200919",
+        "tenantId": null
+      },
+      {
+        "reference": "40837814-1c81-416e-8e37-d7d6f71c5336",
+        "email": "Chaim_Thiel62@gmail.com",
+        "firstName": "Ivy",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/298.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72fa0e12-b349-4a04-9b74-a9b6863a42cd",
+        "email": "Lesly99@gmail.com",
+        "firstName": "Zion",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13851017",
+        "tenantId": null
+      },
+      {
+        "reference": "9973a452-022f-4be7-82df-e51241d80c31",
+        "email": "Hazle67@gmail.com",
+        "firstName": "Leatha",
+        "lastName": "Kilback-Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/930.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "8b8d4a1a-64d5-4710-b180-3955e315a41f",
+        "tax_type": "Sales Tax",
+        "tax_rate": 73669,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:21:46.542Z",
+        "updated_at": "2023-09-14T05:22:35.842Z"
+      },
+      {
+        "id": "4e26defe-4216-40bf-8d27-66738c086d7a",
+        "tax_type": "Income Tax",
+        "tax_rate": 34727,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T01:56:26.174Z",
+        "updated_at": "2023-09-14T06:06:12.269Z"
+      },
+      {
+        "id": "f547757c-c8f2-4591-9bea-e64f8c48a5c0",
+        "tax_type": "Property Tax",
+        "tax_rate": 25643,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:46:55.736Z",
+        "updated_at": "2023-09-13T14:51:46.165Z"
+      },
+      {
+        "id": "1ae455bd-db36-4c07-9111-d6108e5c499a",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 74529,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T19:44:37.570Z",
+        "updated_at": "2023-09-14T10:39:38.226Z"
+      },
+      {
+        "id": "89f1265e-6571-4eaf-84d3-12c1ec727cc6",
+        "tax_type": "Excise Tax",
+        "tax_rate": 67773,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:35:01.112Z",
+        "updated_at": "2023-09-14T09:34:03.083Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "87b2fc29-d87c-4747-a5fc-075ab96f2ae1",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-13T16:18:30.351Z",
+        "due_date": "2023-09-14T04:38:10.698Z",
+        "total_amount": 64683,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:45:57.115Z",
+        "updated_at": "2023-09-14T08:56:47.949Z"
+      },
+      {
+        "id": "fef01195-5c30-45f3-b540-bf4467396e8b",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-13T13:40:47.445Z",
+        "due_date": "2023-09-13T15:00:37.316Z",
+        "total_amount": 91216,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:25:31.871Z",
+        "updated_at": "2023-09-13T18:55:25.060Z"
+      },
+      {
+        "id": "ccee5a84-b07d-4586-affe-5b133326fdd0",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-13T14:14:56.691Z",
+        "due_date": "2023-09-14T01:06:31.771Z",
+        "total_amount": 52480,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:29:05.115Z",
+        "updated_at": "2023-09-14T07:13:39.685Z"
+      },
+      {
+        "id": "d9997cbd-de78-4e26-ba0a-b64f0574b4c7",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-14T00:50:44.680Z",
+        "due_date": "2023-09-13T20:32:09.344Z",
+        "total_amount": 61252,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:14:26.994Z",
+        "updated_at": "2023-09-13T15:02:12.974Z"
+      },
+      {
+        "id": "239ad0a7-b8ee-490c-b56d-cc25acf52e61",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-13T15:21:22.598Z",
+        "due_date": "2023-09-13T20:54:58.098Z",
+        "total_amount": 27913,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T19:14:12.264Z",
+        "updated_at": "2023-09-13T21:10:50.625Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "fdd1f72a-dac1-47ad-a1fc-78163679f564",
+        "expense_date": "2023-09-13T23:07:22.685Z",
+        "amount": 91790,
+        "category": "Travel",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:51:04.012Z",
+        "updated_at": "2023-09-13T20:45:34.961Z"
+      },
+      {
+        "id": "8085ab03-9a67-4c37-a26d-ed2a4fa2d33d",
+        "expense_date": "2023-09-14T03:44:54.250Z",
+        "amount": 35776,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:49:18.587Z",
+        "updated_at": "2023-09-14T05:03:37.782Z"
+      },
+      {
+        "id": "5b87ae56-1c1a-488b-aa78-d98472156202",
+        "expense_date": "2023-09-13T20:30:48.970Z",
+        "amount": 43393,
+        "category": "Advertising",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T17:09:05.346Z",
+        "updated_at": "2023-09-13T12:11:02.137Z"
+      },
+      {
+        "id": "bd5bf531-4e3a-4f35-af5b-bf52be595147",
+        "expense_date": "2023-09-13T18:39:17.554Z",
+        "amount": 43493,
+        "category": "Utilities",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:02:34.938Z",
+        "updated_at": "2023-09-13T15:55:54.585Z"
+      },
+      {
+        "id": "180031df-8235-476b-aaad-73caf838cba1",
+        "expense_date": "2023-09-13T12:15:38.306Z",
+        "amount": 14210,
+        "category": "Professional Services",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:12:12.033Z",
+        "updated_at": "2023-09-14T07:08:02.734Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "3c976fb0-c72b-45f3-afb4-e6fc6d038a6c",
+        "bank_name": "Bank of America",
+        "account_number": "1234567890",
+        "balance": 11323,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:09:04.373Z",
+        "updated_at": "2023-09-14T00:13:15.041Z"
+      },
+      {
+        "id": "918f38c1-4871-41ee-8148-13dfe14789fe",
+        "bank_name": "Wells Fargo",
+        "account_number": "0987654321",
+        "balance": 47055,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:57:07.870Z",
+        "updated_at": "2023-09-14T10:37:18.713Z"
+      },
+      {
+        "id": "17fe2141-89b5-4b85-8572-c828b420e3ac",
+        "bank_name": "Chase Bank",
+        "account_number": "2468135790",
+        "balance": 37057,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:14:48.112Z",
+        "updated_at": "2023-09-14T07:10:56.159Z"
+      },
+      {
+        "id": "ef2eec07-f6bc-41d2-9333-19e4c8f6255c",
+        "bank_name": "Citibank",
+        "account_number": "1357924680",
+        "balance": 58757,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:28:01.701Z",
+        "updated_at": "2023-09-13T16:44:48.943Z"
+      },
+      {
+        "id": "add524c5-f443-48aa-9684-95b5248ca7e7",
+        "bank_name": "HSBC",
+        "account_number": "9876543210",
+        "balance": 85838,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T10:24:28.895Z",
+        "updated_at": "2023-09-14T08:05:17.725Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e8343519-7450-4658-9261-ba79b25e641e",
+        "email": "Nelda_Murphy@hotmail.com",
+        "firstName": "Carlo",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1020.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f99275d-ff2c-4c34-bda2-8fa4bd2dba02",
+        "email": "Laisha_Treutel@hotmail.com",
+        "firstName": "Kirsten",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46625251",
+        "tenantId": null
+      },
+      {
+        "reference": "914be045-191a-47a3-97b7-1740e7e341b7",
+        "email": "Keely.Hessel@gmail.com",
+        "firstName": "Celine",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81265246",
+        "tenantId": null
+      },
+      {
+        "reference": "48c03ef4-6373-4c03-9f70-5b66333335d6",
+        "email": "Una.Crist@hotmail.com",
+        "firstName": "Clair",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/730.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "35037f59-2922-467b-834c-307b0806e36d",
+        "email": "Della.Kertzmann9@yahoo.com",
+        "firstName": "Whitney",
+        "lastName": "Nikolaus",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/946.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "6844c76d-ba89-446a-ac6f-2be307f2cb22",
+        "tax_type": "Sales Tax",
+        "tax_rate": 48765,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:56:09.001Z",
+        "updated_at": "2023-09-13T17:32:11.257Z"
+      },
+      {
+        "id": "d11676bd-b87b-4263-a87f-6999fd1911db",
+        "tax_type": "Income Tax",
+        "tax_rate": 9130,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:37:57.511Z",
+        "updated_at": "2023-09-14T11:10:30.599Z"
+      },
+      {
+        "id": "5fe9dcc9-0bc4-4398-8d36-f0dcb66c348b",
+        "tax_type": "Property Tax",
+        "tax_rate": 2127,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:09:57.302Z",
+        "updated_at": "2023-09-13T19:30:11.326Z"
+      },
+      {
+        "id": "2f80829f-43a5-4ce8-b75d-af46e4bf7e8b",
+        "tax_type": "Value Added Tax",
+        "tax_rate": 79221,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:47:59.044Z",
+        "updated_at": "2023-09-14T10:21:43.918Z"
+      },
+      {
+        "id": "a84208a3-ce63-4383-9e7f-dfdcea0272ed",
+        "tax_type": "Excise Tax",
+        "tax_rate": 87111,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T05:20:16.582Z",
+        "updated_at": "2023-09-13T16:46:48.611Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "2d4d2667-ca3a-4fa6-b33d-f0a1832f1e28",
+        "invoice_number": "INV-2021001",
+        "invoice_date": "2023-09-14T03:34:31.778Z",
+        "due_date": "2023-09-13T16:26:38.907Z",
+        "total_amount": 99524,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T07:15:34.088Z",
+        "updated_at": "2023-09-14T08:46:42.565Z"
+      },
+      {
+        "id": "e2a8a1d3-5437-4d6d-b3f0-e6610e26d3e5",
+        "invoice_number": "INV-2021002",
+        "invoice_date": "2023-09-13T20:41:12.567Z",
+        "due_date": "2023-09-13T21:51:03.899Z",
+        "total_amount": 75668,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T04:26:42.181Z",
+        "updated_at": "2023-09-13T22:30:10.511Z"
+      },
+      {
+        "id": "19cdd3f3-e3af-4458-8b11-7329e8518db3",
+        "invoice_number": "INV-2021003",
+        "invoice_date": "2023-09-14T01:36:29.981Z",
+        "due_date": "2023-09-14T09:04:58.808Z",
+        "total_amount": 5631,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T14:01:17.188Z",
+        "updated_at": "2023-09-14T03:46:10.394Z"
+      },
+      {
+        "id": "100c81db-0014-4b38-8343-2df95e74f7ce",
+        "invoice_number": "INV-2021004",
+        "invoice_date": "2023-09-13T15:02:36.672Z",
+        "due_date": "2023-09-13T18:28:09.935Z",
+        "total_amount": 55621,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:38:51.457Z",
+        "updated_at": "2023-09-14T09:30:19.544Z"
+      },
+      {
+        "id": "8317bbf5-8805-48ae-880e-2effd5173773",
+        "invoice_number": "INV-2021005",
+        "invoice_date": "2023-09-13T19:18:20.503Z",
+        "due_date": "2023-09-13T18:05:39.425Z",
+        "total_amount": 30775,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T01:15:11.727Z",
+        "updated_at": "2023-09-13T23:40:20.573Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "7abbe03c-1f4f-4f00-aa6d-86fc3b8d881c",
+        "expense_date": "2023-09-13T21:33:50.003Z",
+        "amount": 50474,
+        "category": "Office Supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:01:44.898Z",
+        "updated_at": "2023-09-13T13:28:48.995Z"
+      },
+      {
+        "id": "4374594c-d0bd-4ec2-8166-c754aa3d1c4d",
+        "expense_date": "2023-09-13T18:14:03.351Z",
+        "amount": 916,
+        "category": "Travel Expenses",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:39:57.826Z",
+        "updated_at": "2023-09-13T18:08:52.236Z"
+      },
+      {
+        "id": "f112ff55-e199-4fa2-bf56-d52fe0a6c1a9",
+        "expense_date": "2023-09-13T14:25:55.166Z",
+        "amount": 81025,
+        "category": "Advertising Costs",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:11:43.597Z",
+        "updated_at": "2023-09-14T03:41:10.471Z"
+      },
+      {
+        "id": "61feb530-1f94-43ac-8797-347ab94e2e55",
+        "expense_date": "2023-09-13T19:31:04.933Z",
+        "amount": 48924,
+        "category": "Utility Bills",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:03:43.836Z",
+        "updated_at": "2023-09-13T22:03:55.829Z"
+      },
+      {
+        "id": "aacbf526-0703-450e-be35-76e87db7759f",
+        "expense_date": "2023-09-14T08:19:16.949Z",
+        "amount": 8145,
+        "category": "Professional Fees",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:01:38.279Z",
+        "updated_at": "2023-09-14T03:15:13.642Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "ce8141d7-e8c2-4564-ac82-ed196074f73e",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "balance": 55318,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:43:05.838Z",
+        "updated_at": "2023-09-14T09:06:01.392Z"
+      },
+      {
+        "id": "2e0ba97d-2cc2-4cc2-9c6b-2de5abfbcf77",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "balance": 43243,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:00:28.521Z",
+        "updated_at": "2023-09-13T22:06:44.351Z"
+      },
+      {
+        "id": "f90fdbb2-679a-4616-aa14-7b179c8f26d2",
+        "bank_name": "123 Bank",
+        "account_number": "2468135790",
+        "balance": 2597,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T07:56:57.405Z",
+        "updated_at": "2023-09-13T13:48:02.663Z"
+      },
+      {
+        "id": "f306ff9c-ddb5-4558-864a-9e71a11b9630",
+        "bank_name": "Acme Bank",
+        "account_number": "1357924680",
+        "balance": 75769,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:26:14.457Z",
+        "updated_at": "2023-09-13T15:27:16.613Z"
+      },
+      {
+        "id": "3d557d19-1599-40ff-b8ce-b49fd5776611",
+        "bank_name": "Global Bank",
+        "account_number": "9876543210",
+        "balance": 14896,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T12:58:32.317Z",
+        "updated_at": "2023-09-14T10:28:47.251Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "59e7fc69-ca13-4f45-a18e-348fca195112",
+        "email": "Alaina82@hotmail.com",
+        "firstName": "Claudia",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/656.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0a6ec032-f7db-486d-a563-a6b192be591a",
+        "email": "Chase35@gmail.com",
+        "firstName": "Orland",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/932.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ac646a3c-eaad-4717-b70a-8d98be2d0a0d",
+        "email": "Dane97@gmail.com",
+        "firstName": "Vesta",
+        "lastName": "Lesch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/544.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e4586aef-7312-4828-8dfe-f13376f0da96",
+        "email": "Celine73@hotmail.com",
+        "firstName": "Trever",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1088.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7a66cfa4-3890-4458-aaad-c0736d1a0ef3",
+        "email": "Hilton.Padberg92@hotmail.com",
+        "firstName": "Elton",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/139.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tax": [
+      {
+        "id": "7d2b5b50-d18c-463c-a45d-ee72610e3996",
+        "tax_type": "Sales tax",
+        "tax_rate": 4258,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:10:49.823Z",
+        "updated_at": "2023-09-14T09:53:04.414Z"
+      },
+      {
+        "id": "76b12e5c-3065-42ce-96de-61fb4f3b0b26",
+        "tax_type": "Income tax",
+        "tax_rate": 62513,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T06:44:06.509Z",
+        "updated_at": "2023-09-14T07:46:53.968Z"
+      },
+      {
+        "id": "2932d523-dc42-4cfb-8f5c-df7951a30128",
+        "tax_type": "Property tax",
+        "tax_rate": 15467,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:23:33.138Z",
+        "updated_at": "2023-09-14T02:02:46.404Z"
+      },
+      {
+        "id": "88d45289-bcc2-4d14-a063-0d59d22b7fc8",
+        "tax_type": "Value added tax",
+        "tax_rate": 64811,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:13:07.703Z",
+        "updated_at": "2023-09-14T03:01:01.080Z"
+      },
+      {
+        "id": "f53802db-632c-4810-9f52-0272ebcb98b1",
+        "tax_type": "Excise tax",
+        "tax_rate": 96967,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T15:44:29.559Z",
+        "updated_at": "2023-09-13T22:55:21.254Z"
+      }
+    ],
+    "invoice": [
+      {
+        "id": "3eb48293-02cd-4095-b851-4f47444f72b8",
+        "invoice_number": "INV-001",
+        "invoice_date": "2023-09-14T07:00:27.624Z",
+        "due_date": "2023-09-14T02:44:27.015Z",
+        "total_amount": 25040,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T18:08:06.752Z",
+        "updated_at": "2023-09-13T23:18:15.400Z"
+      },
+      {
+        "id": "4e932164-85b5-4695-a35e-b56a574ab2c0",
+        "invoice_number": "INV-002",
+        "invoice_date": "2023-09-13T13:49:11.013Z",
+        "due_date": "2023-09-14T00:05:20.627Z",
+        "total_amount": 75813,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T22:28:48.332Z",
+        "updated_at": "2023-09-14T02:40:22.289Z"
+      },
+      {
+        "id": "6006c326-e000-4676-8553-d5bfee787da9",
+        "invoice_number": "INV-003",
+        "invoice_date": "2023-09-13T15:42:10.463Z",
+        "due_date": "2023-09-14T08:04:15.437Z",
+        "total_amount": 67313,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T16:02:16.357Z",
+        "updated_at": "2023-09-13T21:03:51.414Z"
+      },
+      {
+        "id": "cf8a4bbe-c211-4bb1-bd45-27bcb9313482",
+        "invoice_number": "INV-004",
+        "invoice_date": "2023-09-14T00:47:29.509Z",
+        "due_date": "2023-09-13T14:03:58.128Z",
+        "total_amount": 27717,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:32:46.378Z",
+        "updated_at": "2023-09-14T11:37:01.472Z"
+      },
+      {
+        "id": "c0dec9d7-b97b-4884-8337-2a259add070d",
+        "invoice_number": "INV-005",
+        "invoice_date": "2023-09-14T05:46:27.483Z",
+        "due_date": "2023-09-13T19:17:01.188Z",
+        "total_amount": 42288,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T00:54:09.603Z",
+        "updated_at": "2023-09-14T04:58:27.359Z"
+      }
+    ],
+    "expense": [
+      {
+        "id": "a27c4fe7-41fd-46f4-b202-bae6b3f7d007",
+        "expense_date": "2023-09-14T06:06:26.895Z",
+        "amount": 24143,
+        "category": "Travel",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T10:06:28.848Z",
+        "updated_at": "2023-09-14T05:38:03.601Z"
+      },
+      {
+        "id": "bf7f2dc8-4112-4d73-ae55-42aafeb67567",
+        "expense_date": "2023-09-13T12:51:18.849Z",
+        "amount": 12133,
+        "category": "Office supplies",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:40:29.495Z",
+        "updated_at": "2023-09-13T18:41:06.344Z"
+      },
+      {
+        "id": "6d23b640-0dc0-4ade-9976-63f1af73a78e",
+        "expense_date": "2023-09-13T12:42:30.694Z",
+        "amount": 43575,
+        "category": "Advertising",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T13:58:20.161Z",
+        "updated_at": "2023-09-13T14:53:31.042Z"
+      },
+      {
+        "id": "784fb48c-34e2-4332-a68e-9b2fa539c9a7",
+        "expense_date": "2023-09-14T03:04:27.420Z",
+        "amount": 98356,
+        "category": "Utilities",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T20:08:09.015Z",
+        "updated_at": "2023-09-14T10:37:24.090Z"
+      },
+      {
+        "id": "fd29b900-82b2-45e1-af9d-3b2e6fdbbf97",
+        "expense_date": "2023-09-14T07:02:25.272Z",
+        "amount": 25695,
+        "category": "Entertainment",
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T09:05:04.581Z",
+        "updated_at": "2023-09-13T15:36:21.713Z"
+      }
+    ],
+    "bank_account": [
+      {
+        "id": "58e83b63-a7b0-4398-8f4f-49d171ea0794",
+        "bank_name": "ABC Bank",
+        "account_number": "1234567890",
+        "balance": 18347,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T08:24:30.063Z",
+        "updated_at": "2023-09-14T07:25:54.853Z"
+      },
+      {
+        "id": "d7dc0127-9a59-46dd-96ca-46f472ae6e17",
+        "bank_name": "XYZ Bank",
+        "account_number": "0987654321",
+        "balance": 54303,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T04:36:07.079Z",
+        "updated_at": "2023-09-13T22:38:31.627Z"
+      },
+      {
+        "id": "eee29a49-415a-414e-89f0-2a0222743548",
+        "bank_name": "123 Bank",
+        "account_number": "9876543210",
+        "balance": 23849,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T17:14:04.569Z",
+        "updated_at": "2023-09-14T05:33:43.487Z"
+      },
+      {
+        "id": "6eb4f20a-a34b-4d72-8a78-f9652fe45bcb",
+        "bank_name": "PQR Bank",
+        "account_number": "0123456789",
+        "balance": 47621,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-13T23:54:48.615Z",
+        "updated_at": "2023-09-14T06:51:01.472Z"
+      },
+      {
+        "id": "a8cd4650-1161-463d-988c-8de22b8c61a6",
+        "bank_name": "LMN Bank",
+        "account_number": "5432109876",
+        "balance": 99880,
+        "tenant_id": "main_entity_pk",
+        "created_at": "2023-09-14T03:40:12.960Z",
+        "updated_at": "2023-09-14T01:04:59.630Z"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "d2ed78e3-6723-4749-b9dd-160c6f0d505c",
+        "email": "Imelda67@hotmail.com",
+        "firstName": "Erik",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/496.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40b2d59f-c547-4ad6-a921-fd8dd4562d23",
+        "email": "Barney.Johns@yahoo.com",
+        "firstName": "Anderson",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1008.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7eb841be-07d9-4440-b07d-a32eab18d10f",
+        "email": "Luna.Nitzsche@yahoo.com",
+        "firstName": "Aliyah",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36463469",
+        "tenantId": null
+      },
+      {
+        "reference": "5f64ed4c-31d7-43b4-893b-f409e19dd458",
+        "email": "Adrian54@gmail.com",
+        "firstName": "Izabella",
+        "lastName": "Heidenreich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9507366",
+        "tenantId": null
+      },
+      {
+        "reference": "0b449758-435b-4e6b-b703-1774a020a7c7",
+        "email": "Lee_Schoen-Hudson@yahoo.com",
+        "firstName": "Stanton",
+        "lastName": "Bashirian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92168076",
+        "tenantId": null
+      }
+    ]
+  }
+]
